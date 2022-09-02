@@ -35,7 +35,7 @@ resource "openstack_networking_network_v2" "network" {
 resource "openstack_networking_subnet_v2" "subnet" {
   name       = var.subnet_name
   network_id = "${openstack_networking_network_v2.network.id}"
-  cidr       = "192.168.101.0/24"
+  cidr       = "***/24"
   ip_version = 4
 }
 
@@ -87,7 +87,7 @@ resource "openstack_compute_instance_v2" "node" {
 
   network {
     uuid        = "${openstack_networking_network_v2.network.id}"
-    fixed_ip_v4 = "192.168.101.43"
+    fixed_ip_v4 = "***"
   }
 
 }
