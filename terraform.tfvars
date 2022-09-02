@@ -1,12 +1,12 @@
 user_name     = "admin"
-password      = "toor"
-auth_url      = "http://192.168.101.31:5000/v3"
+password      = "***"
+auth_url      = "http://***:5000/v3"
 key_name      = "key-node"
-ssh_key       = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2iaRD2vsTRaeBbiJERPUUcvVHhTblh0JSPNLyirMK1MBT/hfs5/Rreris8q2s6J91+pJZokf0Raks9RPsHjmE2nZecLL35tnFMyqCPs2kGn8LQU71WQ9bCUg1DT1BirJ1gNxzShguqNsorSBhpjpB6eP7zFdpn83g3tHNnvPXrrWekPkKLpb9BHIvwwbm4SB3UU4bHR8P3MspqWN2uAc6ncdWzus2dAN60ezDdtMTuOo/NxX7T0Z4WX7h9dPSPFVxGqMXM4mur05QE0hNu2W40y+Qxnv+lLHXZtCCdGaxAi8kG50td2b87hZwIw8ywLUeAgNfzfvaaYhTq9S22JnZ root@localhost.localdomain"
+ssh_key       = "***"
 network_name  = "Private"
 subnet_name   = "Privatesub"
 router_name   = "Virtual Router"
 secgroup_name = "secgroup1"
 num-instance  = 2
 image         = "CentOS-7-x86_64"
-ip_address    = ["192.168.101.48","192.168.101.49"]
+ip_address    = ["***","***"]
